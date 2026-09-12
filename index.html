@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>life-sleep-sync</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 40rem; margin: 0 auto; padding: 2rem 1rem;
+    font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    line-height: 1.8;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  .lead { opacity: .75; margin-top: 0; }
+  h2 { font-size: 1.1rem; margin-top: 2rem; }
+  ul { padding-left: 1.2rem; }
+  nav { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid rgba(128,128,128,.35); }
+  nav a { margin-right: 1rem; }
+</style>
+</head>
+<body>
+
+<h1>life-sleep-sync</h1>
+<p class="lead">個人利用の睡眠データ記録ツール</p>
+
+<h2>これは何か</h2>
+<p>
+  作者が自分自身の睡眠データを記録・振り返るために作った、個人利用のツールです。
+  一般に配布・提供しているサービスではありません。
+</p>
+
+<h2>何をするか</h2>
+<ul>
+  <li>Google Health API を通じて、<strong>作者自身のアカウント</strong>の睡眠データ（睡眠時間・睡眠ステージ・血中酸素・呼吸数など）を1日1回読み取ります</li>
+  <li>読み取ったデータを、<strong>作者本人が所有する非公開のGitHubリポジトリ</strong>にMarkdown形式で保存します</li>
+  <li>保存したデータは、睡眠習慣の振り返りと健康管理に使います</li>
+</ul>
+
+<h2>何をしないか</h2>
+<ul>
+  <li>作者以外のユーザーを受け付けません</li>
+  <li>データを第三者に提供・販売しません</li>
+  <li>広告・解析目的の利用をしません</li>
+  <li>データの書き込み・変更を行いません（読み取り専用）</li>
+</ul>
+
+<nav>
+  <a href="privacy.html">プライバシーポリシー</a>
+  <a href="terms.html">利用規約</a>
+</nav>
+
+</body>
+</html>
